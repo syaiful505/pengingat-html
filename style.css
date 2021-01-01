@@ -1,4 +1,4 @@
-.body, .html {
+body, html {
     height: 100%;
     margin: 0;
 }
@@ -34,7 +34,7 @@
     text-align: center;
 }
 
-.hr {
+hr {
     margin: auto;
     width: 40%;
 }
