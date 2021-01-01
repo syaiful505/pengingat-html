@@ -5,6 +5,7 @@ body, html {
 
 .bgimg {
     background-image: url('/img/tv.jpeg');
+    width: 100%;
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -35,14 +36,32 @@ body, html {
     color: blueviolet;
 }
 
+.middle h1 {
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
 .middle img {
     position: relative;
+    width: 50%;
     border: 5px solid #eaeaea ;
     box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
-    height: 400px;
+    height: 50%;
+}
+
+section {
+    min-height: 600px;
 }
 
 hr {
     margin: auto;
     width: 40%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    background-image: none;
+    padding-top: 30px;
 }
